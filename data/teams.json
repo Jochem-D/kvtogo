@@ -1,0 +1,600 @@
+[
+    {
+        "title": "TOGO selectie (3 teams)",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto TOGO selectie",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Evie Amperse",
+                    "Emy Baaijens",
+                    "Loor Boogert",
+                    "Rowi Dijkdrent",
+                    "Lisa van Eijkeren",
+                    "Bente Gorsse",
+                    "Anouk Hammer",
+                    "Pien Meulman",
+                    "Lisa Kievit",
+                    "Evi Koppejan",
+                    "Esmee Korf",
+                    "Roos Korf",
+                    "Amber Weststrate",
+                    "Vera Weststrate",
+                    "Irene de Willigen",
+                    "Suzan Zegers",
+                    "Noa van Zon"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Youri de Back",
+                    "Timo Bras",
+                    "Jochem Dijkdrent",
+                    "Koen Duinkerke",
+                    "Iloy Geeratz",
+                    "Joost van Horssen",
+                    "Yvo Oggel",
+                    "Wilco de Poorter",
+                    "Jort Roelofs",
+                    "Mees van Rooijen",
+                    "Janick Sinnecker",
+                    "Dante Traas",
+                    "Jermaine Uitterhoeve",
+                    "Ivo van Westen",
+                    "Tim van Zon"
+                ]
+            },
+            {
+                "label": "Coach / Staf",
+                "names": [
+                    "Wim Allaart",
+                    "Mijke Biesterbosch - Tahapary",
+                    "Dennis Boelman",
+                    "Joost Goossens",
+                    "Sjaak Joziasse",
+                    "Niek Meerman",
+                    "Yvo Oggel"
+                ]
+            }
+        ],
+        "note": "Na de voorbereidingsperiode wordt bekend welke spelers in welk team gaan spelen."
+    },
+    {
+        "title": "TOGO senioren (2 teams, in roulatie)",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto Senioren",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Renske Balkenende",
+                    "Susanne Boogert",
+                    "Sanne Dommisse",
+                    "Anouk Hazelaar",
+                    "Inge Meerman",
+                    "Kitty de Munck",
+                    "Krista van Nes",
+                    "Reinie Nieuwdorp",
+                    "Maaike Ponjee",
+                    "Ellen Stoelman",
+                    "Asmara Tiber",
+                    "Desiree Voshart"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Simon Chan",
+                    "Joost Danckaert",
+                    "Jordi Dommisse",
+                    "Marcel Joziasse",
+                    "Sander Kesselaar",
+                    "Niek Meerman",
+                    "Robrecht Moerman",
+                    "Wietse de Munck",
+                    "Jurre Postema",
+                    "Marten Postema",
+                    "Roeland van Vliet",
+                    "Kurt van der Welk",
+                    "Mark-Jan Wondergem"
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Annelies van Zon"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "TOGO Kluppers",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto Kluppers",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Nancy Bosters",
+                    "Josien Dane",
+                    "Maaike van Eijkeren",
+                    "Mariska Geerlings",
+                    "Eva van Ginneken",
+                    "Carine Gorsse",
+                    "Mirjam Hordijk",
+                    "Saskia de Jong",
+                    "Imre in 't Veld"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Jos van den Booren",
+                    "Mike Dijkdrent",
+                    "Bas Dommisse",
+                    "Kees Gorsse",
+                    "Simon van der Harst",
+                    "Peter Huijbregtse"
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Volgt"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Kombifit",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto Kombifit",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Angela Bras",
+                    "Wilma Dijkdrent",
+                    "Ellie Elema",
+                    "Corrie Heikens",
+                    "Els Ponjee",
+                    "Ineke Schipper",
+                    "Simone Tahapary",
+                    "Lenny Tiber",
+                    "Francis van Tilburg"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Alex Ponjee",
+                    "Arjen Postema",
+                    "Bert Verhoeven",
+                    "Cees Visser"
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Maja van Belzen"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "OldStars",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto OldStars",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Ilona Hakkert",
+                    "Saar den Hollander",
+                    "Berry de Jong",
+                    "Cobie Kaaisteker",
+                    "Sjaan Moelker",
+                    "Els Ponjee",
+                    "Ineke Schipper",
+                    "Els Verrijzer"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Huub Bellaart",
+                    "Jan van Doorn",
+                    "Paul Louisse",
+                    "Dick Moelker",
+                    "Alex Ponjee",
+                    "Arjen Postema",
+                    "Cees Visser",
+                    "Jan Wondergem"
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Alex Ponjee",
+                    "Arjen Postema"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Algemeen Reserves",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto Algemeen Reserves",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "n.v.t."
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "n.v.t."
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Dennis Boelman",
+                    "Joost Goossens",
+                    "Niek Minnaard"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "J1",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto J1",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Tori Chan",
+                    "Guusje Dek",
+                    "Amy van Eijkeren",
+                    "Deveny Heule",
+                    "Annieke de Jonge",
+                    "Nienke Waleboer"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "n.v.t."
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Iloy Geeratz",
+                    "Ivo van Westen"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "U-17",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto U-17",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Cecilia Chan Sze Yu",
+                    "Evi Koorstra",
+                    "Lisa Moerdijk",
+                    "Nimra Moerman",
+                    "Mae Ruiter",
+                    "Suze Ruiter"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Daan Aalders",
+                    "Mikai Hoogerheide",
+                    "Sepp Hoogerheide",
+                    "Luuk Koorstra",
+                    "Kai Schipper"
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Youri de Back",
+                    "Tim van Zon"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "J2",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto J2",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Jasmijn de Bruijn",
+                    "Lotje Dane",
+                    "Vajen van Rooijen",
+                    "Veerle Vuyk",
+                    "Aimee Westerweele"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Rayce Chan Wai Tsunh",
+                    "Jasper Rooze",
+                    "Joachim van Wijngaarden"
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Rowi Dijkdrent",
+                    "Mees van Rooijen",
+                    "Dante Traas",
+                    "Ivo van Westen (donderdag)",
+                    "Roos Korf",
+                    "Jermaine Uitterhoeve",
+                    "Janick Sinnecker",
+                    "Zaterdag coach volgt"
+                ]
+            }
+        ],
+        "note": "Oranje teams trainen op dinsdag gezamenlijk. Gele teams trainen op dinsdag gezamenlijk."
+    },
+    {
+        "title": "J3",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto J3",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Nina Boon",
+                    "Katja Brnic",
+                    "Lynn Colijn",
+                    "Veerle Hoogerdijk",
+                    "Esmee de Jager",
+                    "Geke Melse",
+                    "Mirre Moerman",
+                    "Anna van Zanden"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "n.v.t."
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Volgt"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "J4",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto J4",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Flo Buise",
+                    "Almayra Buys",
+                    "Daniella Goedhart",
+                    "Eef Meerman",
+                    "Isa Woltjer"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Bas Hofman",
+                    "Ravi van Riel",
+                    "Tim Rooze",
+                    "Eli Zwemer"
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Volgt"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "J5",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto J5",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Yara Aljoudi",
+                    "Caoimhe van der Sande",
+                    "Nova Stoelman",
+                    "Dinaya Wedisinghe"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Kevin de Bruijn",
+                    "Juda Moerman",
+                    "Levi Moerman",
+                    "Dominic van Rooijen",
+                    "Nicolas van Rooijen"
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Volgt"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "J6",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto J6",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Tess de Muijnck"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Mohammed Aljoudi",
+                    "Wannes Ars",
+                    "Zef Joziasse"
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Lisa Kievit",
+                    "Evi Koppejan"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "J7",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto J7",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Marit Rooze"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Ravi Boelman",
+                    "Elian Kosten",
+                    "Senn Stoelman"
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Evie Amperse",
+                    "Noa van Zon"
+                ]
+            }
+        ],
+        "note": "Groene teams trainen op dinsdag en donderdag gezamenlijk."
+    },
+    {
+        "title": "J8",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto J8",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Piluca Albaladejo",
+                    "Ylva Boelman",
+                    "Denudi Wedisinghe"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Marti Lucas Block",
+                    "Rif Joziasse"
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Luuk Koorstra",
+                    "Pien Meulman",
+                    "Marscha van Rooijen (alleen training)"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Kangoeroes",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto Kangoeroes",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Fie Joziasse",
+                    "Eva Kesselaar",
+                    "Ayla Phernambucq",
+                    "Suze Wondergem"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Hugo Koomen"
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Loor Boogert",
+                    "Sepp Hoogerheide",
+                    "Sander Kesselaar"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Kruumels",
+        "photo": "/uploads/teams/20250116_TOGO-teamfotos-januari-2025-34-1-scaled.jpg",
+        "photoLabel": "Teamfoto Kruumels",
+        "columns": [
+            {
+                "label": "Dames",
+                "names": [
+                    "Puck Goedegebuur",
+                    "Fem de Munck",
+                    "Roos Wondergem"
+                ]
+            },
+            {
+                "label": "Heren",
+                "names": [
+                    "Joep Biesterbosch"
+                ]
+            },
+            {
+                "label": "Coach",
+                "names": [
+                    "Evi Koorstra",
+                    "Nimra Moerman",
+                    "Maaike Ponjee"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Teams - KV TOGO</title>
+    <meta name="description" content="Teams van KV TOGO" />
+    <link rel="icon" href="/assets/TOGO-logo-rood-doorzichtig.png" type="image/png" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div data-include="../includes/header.html"></div>
+
+    <main>
+      <section class="page-hero">
+        <div class="container narrow">
+          <h1>Teams</h1>
+          <p>Van jeugd tot senioren: hier vind je al onze teams!</p>
+        </div>
+      </section>
+
+      <section class="page-content">
+        <div class="container">
+          <div class="team-list" id="team-list" data-teams="../data/teams.json"></div>
+        </div>
+      </section>
+    </main>
+
+    <div data-include="../includes/footer.html"></div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
