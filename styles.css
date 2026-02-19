@@ -73,26 +73,58 @@ a {
 .site-header {
   background: var(--cream);
   border-bottom: var(--border-soft);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .site-header--red {
-  background: linear-gradient(135deg, var(--red) 0%, var(--dark-red) 100%);
+  background: var(--red);
   border-bottom: none;
-  box-shadow: 0 4px 20px rgba(255, 0, 0, 0.15);
 }
 
+.site-header--red.scrolled {
+  background: rgba(190, 0, 0, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+}
+
+/* Standaard: logo gecentreerd boven nav */
 .header-inner {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 22px 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 0 10px;
+  transition: padding 0.3s ease;
 }
 
 .header-inner--center {
-  justify-content: center;
-  padding: 26px 0 16px;
+  align-items: center;
+}
+
+/* Scrolled: logo links naast nav in één rij */
+.site-header.scrolled .header-inner {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.site-header.scrolled .brand--center {
+  justify-content: flex-start;
+}
+
+.site-header.scrolled .brand-logo--large {
+  width: 36px;
+}
+
+.site-header.scrolled .brand-title {
+  font-size: 20px;
+}
+
+.site-header.scrolled .brand-tagline {
+  display: none;
 }
 
 .brand {
@@ -111,9 +143,9 @@ a {
 }
 
 .brand-logo--large {
-  width: 64px;
+  width: 76px;
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
-  transition: transform var(--transition-base);
+  transition: width 0.3s ease, filter 0.3s ease;
 }
 
 .brand-logo--large:hover {
@@ -139,9 +171,10 @@ a {
 }
 
 .brand-title {
-  font-size: 34px;
+  font-size: 28px;
   letter-spacing: 1.5px;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: font-size 0.3s ease;
 }
 
 .brand-title--light {
@@ -876,6 +909,20 @@ a {
     grid-template-columns: 1fr 1fr;
   }
 
+  .team-names {
+    font-size: 15px;
+    color: var(--black);
+  }
+
+  .team-names li + li {
+    margin-top: 6px;
+  }
+
+  .team-columns h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
   .hero-slideshow {
     height: 320px;
   }
@@ -895,7 +942,22 @@ a {
   }
 
   .team-columns {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .team-names {
+    font-size: 15px;
+    color: var(--black);
+    line-height: 1.6;
+  }
+
+  .team-names li + li {
+    margin-top: 5px;
+  }
+
+  .team-columns h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
   }
 
   .hero-slideshow {

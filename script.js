@@ -1,3 +1,15 @@
+const BASE = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
+  ? ''
+  : '/kvtogo';
+
+document.querySelectorAll('[href*="BASE_PATH"], [src*="BASE_PATH"], [data-images*="BASE_PATH"], [data-src*="BASE_PATH"]').forEach(el => {
+  ['href', 'src', 'data-images', 'data-src'].forEach(attr => {
+    if (el.getAttribute(attr)?.includes('BASE_PATH')) {
+      el.setAttribute(attr, el.getAttribute(attr).replaceAll('BASE_PATH', BASE));
+    }
+  });
+});
+
 async function loadIncludes() {
   const includeTargets = document.querySelectorAll('[data-include]');
   const requests = Array.from(includeTargets).map(async (el) => {
@@ -7,7 +19,8 @@ async function loadIncludes() {
     }
     const response = await fetch(path);
     const html = await response.text();
-    el.outerHTML = html;
+    const resolved = html.replaceAll('BASE_PATH', BASE);
+    el.outerHTML = resolved;
   });
   await Promise.all(requests);
 }
@@ -46,18 +59,19 @@ async function renderTeams() {
 
       const photo = document.createElement('div');
       if (team.photo) {
+        const photoSrc = `${BASE}/${team.photo}`;
         photo.className = 'team-photo team-photo--clickable';
-        photo.style.backgroundImage = `url("${team.photo}")`;
+        photo.style.backgroundImage = `url("${photoSrc}")`;
         photo.setAttribute('role', 'button');
         photo.setAttribute('tabindex', '0');
         photo.setAttribute('aria-haspopup', 'dialog');
         photo.addEventListener('click', () => {
-          openPhotoModal(modal, team.photo, team.photoLabel || `Teamfoto ${team.title}`);
+          openPhotoModal(modal, photoSrc, team.photoLabel || `Teamfoto ${team.title}`);
         });
         photo.addEventListener('keydown', (event) => {
           if (event.key === 'Enter' || event.key === ' ') {
             event.preventDefault();
-            openPhotoModal(modal, team.photo, team.photoLabel || `Teamfoto ${team.title}`);
+            openPhotoModal(modal, photoSrc, team.photoLabel || `Teamfoto ${team.title}`);
           }
         });
       } else {
